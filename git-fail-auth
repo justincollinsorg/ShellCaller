@@ -1,0 +1,4 @@
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/justincollinsorg_rsa.pub
+chmod 600 ~/.ssh/justincollinsorg_rsa*
+ssh-add ~/.ssh/justincollinsorg_rsa
